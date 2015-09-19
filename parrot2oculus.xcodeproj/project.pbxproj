@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		372D99241BADD82E0098DEDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 372D99231BADD82E0098DEDF /* AppDelegate.m */; };
+		372D99271BADD82E0098DEDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 372D99261BADD82E0098DEDF /* main.m */; };
+		372D99291BADD82E0098DEDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372D99281BADD82E0098DEDF /* Assets.xcassets */; };
+		372D992C1BADD82E0098DEDF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 372D992A1BADD82E0098DEDF /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		372D991F1BADD82E0098DEDF /* parrot2oculus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parrot2oculus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		372D99221BADD82E0098DEDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		372D99231BADD82E0098DEDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		372D99261BADD82E0098DEDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		372D99281BADD82E0098DEDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		372D992B1BADD82E0098DEDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		372D992D1BADD82E0098DEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		372D991C1BADD82E0098DEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		372D99161BADD82E0098DEDF = {
+			isa = PBXGroup;
+			children = (
+				372D99211BADD82E0098DEDF /* parrot2oculus */,
+				372D99201BADD82E0098DEDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		372D99201BADD82E0098DEDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				372D991F1BADD82E0098DEDF /* parrot2oculus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		372D99211BADD82E0098DEDF /* parrot2oculus */ = {
+			isa = PBXGroup;
+			children = (
+				372D99221BADD82E0098DEDF /* AppDelegate.h */,
+				372D99231BADD82E0098DEDF /* AppDelegate.m */,
+				372D99281BADD82E0098DEDF /* Assets.xcassets */,
+				372D992A1BADD82E0098DEDF /* MainMenu.xib */,
+				372D992D1BADD82E0098DEDF /* Info.plist */,
+				372D99251BADD82E0098DEDF /* Supporting Files */,
+			);
+			path = parrot2oculus;
+			sourceTree = "<group>";
+		};
+		372D99251BADD82E0098DEDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				372D99261BADD82E0098DEDF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		372D991E1BADD82E0098DEDF /* parrot2oculus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372D99301BADD82E0098DEDF /* Build configuration list for PBXNativeTarget "parrot2oculus" */;
+			buildPhases = (
+				372D991B1BADD82E0098DEDF /* Sources */,
+				372D991C1BADD82E0098DEDF /* Frameworks */,
+				372D991D1BADD82E0098DEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = parrot2oculus;
+			productName = parrot2oculus;
+			productReference = 372D991F1BADD82E0098DEDF /* parrot2oculus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		372D99171BADD82E0098DEDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Brown2HackMIT;
+				TargetAttributes = {
+					372D991E1BADD82E0098DEDF = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 372D991A1BADD82E0098DEDF /* Build configuration list for PBXProject "parrot2oculus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 372D99161BADD82E0098DEDF;
+			productRefGroup = 372D99201BADD82E0098DEDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				372D991E1BADD82E0098DEDF /* parrot2oculus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		372D991D1BADD82E0098DEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372D99291BADD82E0098DEDF /* Assets.xcassets in Resources */,
+				372D992C1BADD82E0098DEDF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		372D991B1BADD82E0098DEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372D99271BADD82E0098DEDF /* main.m in Sources */,
+				372D99241BADD82E0098DEDF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		372D992A1BADD82E0098DEDF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				372D992B1BADD82E0098DEDF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		372D992E1BADD82E0098DEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		372D992F1BADD82E0098DEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		372D99311BADD82E0098DEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = parrot2oculus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.brown.hackmit.parrot2oculus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		372D99321BADD82E0098DEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = parrot2oculus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.brown.hackmit.parrot2oculus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		372D991A1BADD82E0098DEDF /* Build configuration list for PBXProject "parrot2oculus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372D992E1BADD82E0098DEDF /* Debug */,
+				372D992F1BADD82E0098DEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372D99301BADD82E0098DEDF /* Build configuration list for PBXNativeTarget "parrot2oculus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372D99311BADD82E0098DEDF /* Debug */,
+				372D99321BADD82E0098DEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 372D99171BADD82E0098DEDF /* Project object */;
+}
